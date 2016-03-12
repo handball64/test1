@@ -1,11 +1,11 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="expansion_servopower" id="163" x="127" y="14">
+  <block type="expansion_servopower" id="12" x="192" y="54">
     <field name="SERVO">ON</field>
     <next>
-      <block type="expansion_elevation" id="188" inline="true">
+      <block type="expansion_gripper" id="18" inline="true">
         <value name="NUMBER">
-          <block type="math_number" id="195">
-            <field name="NUM">5000</field>
+          <block type="math_number" id="67">
+            <field name="NUM">100000</field>
           </block>
         </value>
       </block>
