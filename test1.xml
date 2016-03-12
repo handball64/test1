@@ -28,7 +28,7 @@
                       <block type="expansion_elevation" id="243" inline="true">
                         <value name="NUMBER">
                           <block type="math_number" id="250">
-                            <field name="NUM">75</field>
+                            <field name="NUM">60</field>
                           </block>
                         </value>
                         <next>
