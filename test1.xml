@@ -5,14 +5,14 @@
       <block type="expansion_gripper" id="169" inline="true">
         <value name="NUMBER">
           <block type="math_number" id="176">
-            <field name="NUM">6000</field>
+            <field name="NUM">10000</field>
           </block>
         </value>
         <next>
           <block type="expansion_elevation" id="188" inline="true">
             <value name="NUMBER">
               <block type="math_number" id="195">
-                <field name="NUM">6000</field>
+                <field name="NUM">10000</field>
               </block>
             </value>
           </block>
