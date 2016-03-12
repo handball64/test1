@@ -15,6 +15,11 @@
                 <field name="NUM">20</field>
               </block>
             </value>
+            <next>
+              <block type="expansion_exp1power" id="122">
+                <field name="SERVO">ON</field>
+              </block>
+            </next>
           </block>
         </next>
       </block>
