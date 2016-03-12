@@ -39,7 +39,20 @@
                               </block>
                             </value>
                             <next>
-                              <block type="movement_stop" id="260"></block>
+                              <block type="movement_stop" id="260">
+                                <next>
+                                  <block type="expansion_elevation" id="266" inline="true">
+                                    <value name="NUMBER">
+                                      <block type="math_number" id="273">
+                                        <field name="NUM">10</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="movement_stop" id="283"></block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
                             </next>
                           </block>
                         </next>
