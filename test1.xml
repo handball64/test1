@@ -1,6 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="expansion_servopower" id="12" x="192" y="54">
-    <field name="SERVO">OFF</field>
+    <field name="SERVO">ON</field>
     <next>
       <block type="expansion_gripper" id="18" inline="true">
         <value name="NUMBER">
