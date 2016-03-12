@@ -12,7 +12,7 @@
           <block type="expansion_elevation" id="188" inline="true">
             <value name="NUMBER">
               <block type="math_number" id="195">
-                <field name="NUM">500</field>
+                <field name="NUM">5000</field>
               </block>
             </value>
           </block>
