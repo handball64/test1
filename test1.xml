@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="expansion_servopower" id="12" x="192" y="54">
+  <block type="expansion_servopower" id="12" x="206" y="27">
     <field name="SERVO">ON</field>
     <next>
       <block type="expansion_gripper" id="18" inline="true">
@@ -15,6 +15,37 @@
                 <field name="NUM">50</field>
               </block>
             </value>
+            <next>
+              <block type="movement_forward" id="215">
+                <next>
+                  <block type="robot_delay" id="217" inline="true">
+                    <value name="DELAY">
+                      <block type="math_number" id="224">
+                        <field name="NUM">1000</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="expansion_elevation" id="243" inline="true">
+                        <value name="NUMBER">
+                          <block type="math_number" id="250">
+                            <field name="NUM">75</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="expansion_gripper" id="230" inline="true">
+                            <value name="NUMBER">
+                              <block type="math_number" id="237">
+                                <field name="NUM">20</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
           </block>
         </next>
       </block>
