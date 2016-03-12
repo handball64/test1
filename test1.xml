@@ -5,14 +5,14 @@
       <block type="expansion_gripper" id="18" inline="true">
         <value name="NUMBER">
           <block type="math_number" id="67">
-            <field name="NUM">50</field>
+            <field name="NUM">20</field>
           </block>
         </value>
         <next>
           <block type="expansion_elevation" id="73" inline="true">
             <value name="NUMBER">
               <block type="math_number" id="80">
-                <field name="NUM">50</field>
+                <field name="NUM">20</field>
               </block>
             </value>
           </block>
