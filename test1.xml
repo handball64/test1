@@ -38,6 +38,9 @@
                                 <field name="NUM">20</field>
                               </block>
                             </value>
+                            <next>
+                              <block type="movement_stop" id="260"></block>
+                            </next>
                           </block>
                         </next>
                       </block>
