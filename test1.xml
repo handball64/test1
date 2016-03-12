@@ -8,6 +8,15 @@
             <field name="NUM">50</field>
           </block>
         </value>
+        <next>
+          <block type="expansion_elevation" id="73" inline="true">
+            <value name="NUMBER">
+              <block type="math_number" id="80">
+                <field name="NUM">50</field>
+              </block>
+            </value>
+          </block>
+        </next>
       </block>
     </next>
   </block>
